@@ -49,3 +49,11 @@ void Start()
 {
     rb.AddForce(Vector3.up * forceAmount, ForceMode.Impulse);
 }
+
+// Look At
+public Transform target;
+    
+void Update ()
+{
+    transform.LookAt(target);
+}
