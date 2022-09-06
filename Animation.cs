@@ -4,5 +4,6 @@
 
 1. Creat animator
 2. Blend tree (1D || 2D)
+3. Set avater mask & Add layer
 
 1. Scripts Charactor controller
