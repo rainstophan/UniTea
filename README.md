@@ -1,4 +1,6 @@
 # UniTea
-- Basics of Unity
-- Lerning Project Summary
 - Game Design Lens
+- Game Mechanics
+- Charactor Camera Control
+- AI
+- PCG
