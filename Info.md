@@ -18,3 +18,13 @@ Abstract classes, on the other hand, will let you keep the single-inheritance st
 
 
 - Dic<,>, List<> (not sequential), Array
+- Stack
+  - Push, Peek, Pop, Clear, Contains, 
+  - TryPeek and TryPop
+- Queue, 
+  - Enqueue,Peek, Dequeue
+- HashSet (it cannot store duplicate values and is not sorted, meaning its elements are not ordered in any way)
+   - Add, Remove
+   - activePlayers.**UnionWith**(inactivePlayers);
+   - activePlayers.**IntersectWith**(premiumPlayers);
+   - activePlayers.**ExceptWith**(premiumPlayers);
