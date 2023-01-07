@@ -1,5 +1,4 @@
 # link: https://answers.unity.com/questions/1501372/how-can-i-check-if-a-key-is-down-in-scene-view.html
-# The Input class only works at runtime. It can't be used at edit time.
 
 using UnityEngine;
 using UnityEditor;
@@ -51,6 +50,7 @@ public class TerrainModifierEditor : Editor
         {
             case EventType.MouseMove:
                 Vector3 mousePos = e.mousePosition;
+                // The Input class only works at runtime. It can't be used at edit time.
                 // Ray ray = sv.camera.ScreenPointToRay(mousePos);
                 Ray ray = HandleUtility.GUIPointToWorldRay(mousePos);
                 terrainModifier.FindPosition(ray, mousePos);
