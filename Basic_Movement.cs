@@ -50,10 +50,6 @@ void Start()
     rb.AddForce(Vector3.up * forceAmount, ForceMode.Impulse);
 }
 
-// Look At
-public Transform target;
-    
-void Update ()
-{
-    transform.LookAt(target);
-}
+// 5. use charactor controller
+Vector3 moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+controller.Move(moveDirection * speed * Time.deltaTime);
