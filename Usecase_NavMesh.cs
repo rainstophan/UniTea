@@ -1,5 +1,5 @@
-# checking the Walkable layer - static 
-# Turn on Gizmos
+// Checking the Walkable layer to be static 
+// Turn on Gizmos to ob
 
 using UnityEngine;
 using UnityEngine.AI;
