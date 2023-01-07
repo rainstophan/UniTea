@@ -1,0 +1,1 @@
+Euler integration is a simple and efficient method for calculating the motion of objects in games, but it is not always the most accurate method. In some cases, more accurate methods such as Runge-Kutta integration or Verlet integration may be preferred.
